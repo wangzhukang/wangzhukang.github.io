@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale: "en-US"
-title: "Zhukang Wang's Homepage"
+title: "Zhukang's Homepage"
 title_separator: "-"
 name: &name "Your Name"
 description: &description "personal description"
@@ -32,12 +32,12 @@ author:
 
   # Academic websites
   arxiv: # URL - Update with the correct link to your profile
-  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar: "https://scholar.google.com/citations?user=7MQeZ3gAAAAJ"
   impactstory: # URL
-  orcid: "http://orcid.org/yourorcidurl"
+  orcid: "https://orcid.org/0009-0008-3033-7591"
   semantic: # URL
-  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate: # URL
+  pubmed: # URL
+  researchgate: "https://www.researchgate.net/profile/Zhukang-Wang"
   scopus: # URL
 
   # Repositories and software development
