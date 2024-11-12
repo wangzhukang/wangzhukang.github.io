@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Zhukang's Homepage te"
+title                    : "Zhukang's Homepage"
 title_separator          : "-"
 subtitle                 : "Moments captured in words."
 name                     : "Zhukang Wang"
