@@ -118,12 +118,23 @@ author:
   bio              : "PhD Student in Electronic Engineering"
   location         : "Hangzhou, China"
   school           : "Zhejiang University"
-  email            : "zhukangwang1005@gmail.com"
-  orcid            : "0009-0008-3033-7591"
-  googleScholar    : "7MQeZ3gAAAAJ"
-  researchGate     : "Zhukang-Wang"
-  github           : "wangzhukang"
-  links            :
+  uri              : 
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:zhukangwang1005@gmail.com"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0008-3033-7591"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=7MQeZ3gAAAAJ"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Zhukang-Wang"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wangzhukang"
 
 # Site Footer
 footer:
@@ -136,7 +147,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github/com/wangzhukang"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
