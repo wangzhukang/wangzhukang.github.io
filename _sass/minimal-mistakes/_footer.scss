@@ -18,9 +18,8 @@
   footer {
     @include clearfix;
     margin-inline: auto;
-    margin-top: 2em;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 1em 1em 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -47,13 +46,16 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  text-align: center;
 }
 
 .page__footer-follow {
   ul {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style-type: none;
+    justify-content: center;
   }
 
   li {
@@ -63,6 +65,14 @@
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
+  }
+
+  strong {
+    margin-right: 10px;
+  }
+
+  i {
+    margin-right: 5px;
   }
 
   li + li::before {
