@@ -33,3 +33,6 @@ _site
 
 # vscode config file
 .vscode
+
+# algolia
+_algolia_api_key
