@@ -64,7 +64,12 @@ small,
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1em;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 u,

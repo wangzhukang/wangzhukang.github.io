@@ -85,7 +85,8 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+  font-family: $georgia;
+  font-weight: bold;
   &--lg {
     padding-inline-end: 2em;
     font-weight: 700;
