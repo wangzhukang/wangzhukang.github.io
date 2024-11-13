@@ -3,7 +3,9 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: sticky;
+  top: 0;
+  background: #eeeeee;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -14,7 +16,7 @@
   &__inner-wrap {
     @include clearfix;
     margin-inline: auto;
-    padding: 1em;
+    padding: 0.5em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;

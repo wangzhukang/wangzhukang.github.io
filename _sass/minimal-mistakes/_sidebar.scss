@@ -19,6 +19,7 @@
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
+    padding-top: 2em;
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -32,6 +33,7 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
+      position: fixed;
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
@@ -73,7 +75,6 @@
 
 .sidebar__right {
   margin-bottom: 1em;
-
   @include breakpoint($large) {
     position: absolute;
     top: 0;
@@ -85,9 +86,8 @@
 
     &.sticky {
       @include clearfix();
-      position: -webkit-sticky;
       position: sticky;
-      top: 2em;
+      top: 4em;
       float: inline-end;
 
       .toc {
@@ -124,8 +124,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
 
   @include breakpoint($large) {
     display: block;
