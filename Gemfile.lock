@@ -285,7 +285,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
-    uri (1.0.2)
+    uri (0.10.3)
     verbal_expressions (0.1.5)
     webrick (1.9.0)
 
@@ -300,6 +300,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  uri (~> 0.10.0)
 
 BUNDLED WITH
    2.5.23

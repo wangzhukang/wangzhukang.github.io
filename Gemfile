@@ -10,6 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # To upgrade, run `bundle update`.
 
+gem "uri", "~> 0.10.0"
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 
