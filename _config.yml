@@ -27,10 +27,10 @@ baseurl                  : ""
 repository               : "wangzhukang/wangzhukang.github.io"
 teaser                   : "/assets/images/teaser.jpg"
 logo                     : "/assets/images/logo.png"
-masthead_title           : 
+masthead_title           : "Zhukang's Homepage"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true # true, false (default)
 copyright                : Zhukang Wang
 copyright_url            : "https://wangzhukang.github.io/"
 comments:
