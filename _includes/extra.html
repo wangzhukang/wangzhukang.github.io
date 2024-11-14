@@ -14,7 +14,7 @@
                 anchor.addEventListener("click", function(e) {
                     e.preventDefault();
                     const targetElement = document.getElementById(targetId);
-                    const offset = 90;
+                    const offset = 90; 
                     const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
                     window.scrollTo({
                         top: elementPosition - offset,
