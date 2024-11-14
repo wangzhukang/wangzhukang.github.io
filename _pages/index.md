@@ -7,7 +7,7 @@ title: ""
 
 oziugdisauodgoasdgoasidgoa `hesss` who knows 注意到 $$a+b=c$$ but we don't know that at all.
 
-$$ \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $$
+$$ \Gamma(z) = \int_{0}^{\infty} t^{z-1}e^{-t} \mathrm{d} t\,. $$
 
 ```java
 for (Element e : c) {
@@ -20,3 +20,4 @@ for (Iterator i = c.iterator(); i.hasNext(); ) {
 }
 ```
 
+![这是一张图片](/assets/images/demo.jpg)
