@@ -304,14 +304,14 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
       show_date: true
-      read_time: false
-      comments: false
+      toc: true
+      toc_sticky: true
   # pages
   - scope:
       path: "_pages"
