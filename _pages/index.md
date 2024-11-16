@@ -11,7 +11,7 @@ This page is still under development, and the following is all test content.
 
 $$ \Gamma(z) = \int_{0}^{\infty} t^{z-1}\mathrm{e}^{-t}\, \mathrm{d} t\,. $$
 
-for inline code we can use `int a=0;` ,for another way we can use
+For inline code we can use `int a=0;` , for another way we can use
 
 ```java
 for (Element e : c) {
