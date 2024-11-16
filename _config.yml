@@ -85,9 +85,8 @@ algolia:
     attributesForFaceting: ["searchable(tags)", "searchable(type)", "searchable(title)"]
   files_to_exclude:
     - _pages/404.md
-    - _pages/index.md
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  search_engine_id       : 569d1607071d84923 # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification :

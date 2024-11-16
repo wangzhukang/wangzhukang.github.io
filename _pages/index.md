@@ -3,11 +3,15 @@ permalink: /
 title: ""
 ---
 
-# ZhukangWang123456
+# This is the homepage of Zhukang
 
-最难的事情其实就是事情本身 `hesss` who knows 注意到 $a+b=c\sum_{0}^{n}$ but we don't know that at all.
+This page is still under development, and the following is all test content.
 
-$$ \Gamma(z) = \int_{0}^{\infty} t^{z-1}e^{-t} \mathrm{d} t\,. $$
+ Notice that $ a+b=c $ and we obtain:
+
+$$ \Gamma(z) = \int_{0}^{\infty} t^{z-1}\mathrm{e}^{-t}\, \mathrm{d} t\,. $$
+
+for inline code we can use `int a=0;` ,for another way we can use
 
 ```java
 for (Element e : c) {
@@ -23,6 +27,6 @@ for (Iterator i = c.iterator(); i.hasNext(); ) {
 {% include figure 
     popup=true
     image_path="/assets/images/demo.jpg"
-    caption="这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题这是图片标题" 
+    caption="This is a test figure." 
 %}
 
