@@ -16,7 +16,6 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Zhukang's Homepage"
 title_separator          : "-"
 subtitle                 : "Moments captured in words."
@@ -78,11 +77,6 @@ algolia:
   index_name             : wangzhukangio
   search_only_api_key    : 8358033c91630aa122127adfee9bd4d6
   powered_by             : true # true (default), false
-  settings:
-    searchableAttributes: ["title", "hierarchy.lvl0", "hierarchy.lvl1", "hierarchy.lvl2", "hierarchy.lvl3", "hierarchy.lvl4", "hierarchy.lvl5", "unordered(content)", "collection,categories,tags"]
-    customRanking: ["desc(date)", "desc(weight.heading)", "asc(weight.position)"]
-    attributesToHighlight: ["title", "hierarchy.lvl0", "hierarchy.lvl1", "hierarchy.lvl2", "hierarchy.lvl3", "hierarchy.lvl4", "hierarchy.lvl5", "content", "html", "collection", "categories", "tags"]
-    attributesForFaceting: ["searchable(tags)", "searchable(type)", "searchable(title)"]
   files_to_exclude:
     - _pages/404.md
 google:
