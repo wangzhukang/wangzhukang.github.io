@@ -177,10 +177,14 @@
 
 .author__bio {
   margin: 0;
-
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+
+  p {
+    text-align: left;
+    hyphens: none;
   }
 }
 
@@ -309,7 +313,7 @@
   a {
     display: block;
     margin-bottom: 5px;
-    padding-block: 2px;
+    padding-block: 0px;
     padding-inline-end: 5px;
     color: inherit;
     font-size: $type-size-5;
