@@ -10,8 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # To upgrade, run `bundle update`.
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
+gem "jekyll"
+gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
     gem "jekyll-feed"
