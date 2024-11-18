@@ -32,6 +32,8 @@ words_per_minute         : 200
 enable_copy_code_button  : true # true, false (default)
 copyright                : Zhukang Wang
 copyright_url            : "https://wangzhukang.github.io/"
+
+# Comments
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -67,6 +69,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
+
+# Search
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : algolia
@@ -82,6 +86,7 @@ algolia:
 google:
   search_engine_id       : 569d1607071d84923 # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -110,7 +115,6 @@ analytics:
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
-
 
 # Site Author
 author:
@@ -164,13 +168,6 @@ exclude:
   - CHANGELOG
   - config
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
   - Rakefile
   - README
   - tmp
