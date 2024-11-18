@@ -19,7 +19,6 @@
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    padding-top: 1em;
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -29,8 +28,8 @@
     }
 
     &.sticky {
-      overflow: auto;
       position: fixed;
+      top: 4em;
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
