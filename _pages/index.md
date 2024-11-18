@@ -25,7 +25,6 @@ for (Iterator i = c.iterator(); i.hasNext(); ) {
 ```
 
 {% include figure 
-    popup=true
     image_path="/assets/images/demo.jpg"
     caption="This is a test figure." 
 %}
