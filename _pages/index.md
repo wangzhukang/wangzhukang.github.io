@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homeland"
+title: "Home"
 ---
 
 I don't know.

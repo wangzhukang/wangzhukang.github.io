@@ -28,8 +28,8 @@
     }
 
     &.sticky {
-      position: fixed;
       top: 4em;
+      position: sticky;
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
@@ -307,7 +307,7 @@
   }
 
   a {
-    display: block;
+    display: inline;
     margin-bottom: 5px;
     padding-block: 0px;
     padding-inline-end: 5px;
