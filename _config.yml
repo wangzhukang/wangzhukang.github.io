@@ -77,9 +77,9 @@ search_provider          : algolia
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
-  application_id         : CS6SCKSE72
+  application_id         : Y3X2QEA6SE
   index_name             : wangzhukangio
-  search_only_api_key    : 8358033c91630aa122127adfee9bd4d6
+  search_only_api_key    : 31878c2e55d615489ec31c3bfca9b11f
   powered_by             : true # true (default), false
   files_to_exclude:
     - _pages/404.md
