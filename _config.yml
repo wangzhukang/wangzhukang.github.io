@@ -76,6 +76,9 @@ search_full_content      : true # true, false (default)
 search_provider          : algolia
 lunr:
   search_within_pages    : # true, false (default)
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
 algolia:
   application_id         : Y3X2QEA6SE
   index_name             : wangzhukangio
@@ -83,9 +86,12 @@ algolia:
   powered_by             : true # true (default), false
   files_to_exclude:
     - _pages/404.md
-google:
-  search_engine_id       : 569d1607071d84923 # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  settings:
+    searchableAttributes:
+      - title
+      - permalink
+      - content
+      - collection,categories,tags
 
 # SEO Related
 google_site_verification :
