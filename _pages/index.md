@@ -1,9 +1,11 @@
 ---
 permalink: /
-title: ""
+title: "Home"
 ---
 
-# This is the homepage of Zhukang
+I don't know.
+
+## This is the homepage of Zhukang
 
 This page is still under development, and the following is all test content.
 
