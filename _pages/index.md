@@ -9,11 +9,17 @@ I don't know.
 
 This page is still under development, and the following is all test content.
 
- Notice that $ a+b=c $ and we obtain:
+$$
+E^2=\sum_{n=0}^{+\infty}\mathcal{A} \,\varepsilon
+$$
 
-$$ \Gamma(z) = \int_{0}^{\infty} t^{z-1}\mathrm{e}^{-t}\, \mathrm{d} t\,. $$
+Notice that $ a+b=c $ and we obtain:
 
-For inline code we can use `int a=0;` , for another way we can use
+$$
+\Gamma(z) = \int_{0}^{\infty} t^{z-1}\mathrm{e}^{-t}\, \mathrm{d} t\,. 
+$$
+
+For inline code we can use `int a=0;` , for another way we can use another test message:
 
 ```java
 for (Element e : c) {
