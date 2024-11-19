@@ -9,8 +9,12 @@ end
 
 desc "Serve the site locally"
 task :serve do
-  sh "bundle exec jekyll algolia"
-  sh "bundle exec jekyll serve"
+  begin
+    sh "bundle exec jekyll algolia"
+    sh "bundle exec jekyll serve"
+  rescue Interrupt
+    puts "\nLocalhost server stopped. Exiting..."
+  end
 end
 
 desc "Clean the site directory"

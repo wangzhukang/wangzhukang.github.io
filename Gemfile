@@ -11,6 +11,7 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 gem "jekyll"
+gem "jekyll-sass-converter", "~> 2.1"
 gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
