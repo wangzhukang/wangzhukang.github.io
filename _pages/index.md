@@ -1,39 +1,10 @@
 ---
 permalink: /
-title: "Home"
+title: "About Me"
 ---
 
-I don't know.
+## Education
 
-## This is the homepage of Zhukang
+This page is still under development, and the following is all test content. This page is still under development, and the following is all test content.This page is still under development, and the following is all test content.This page is still under development, and the following is all test content.This page is still under development, and the following is all test content.This page is still under development, and the following is all test content.This page is still under development, and the following is all test content.This page is still under development, and the following is all test content.This page is still under development, and the following is all test content.This page is still under development, and the following is all test content.
 
-This page is still under development, and the following is all test content.
-
-$$
-E^2=\sum_{n=0}^{+\infty}\mathcal{A} \,\varepsilon
-$$
-
-Notice that $ a+b=c $ and we obtain:
-
-$$
-\Gamma(z) = \int_{0}^{\infty} t^{z-1}\mathrm{e}^{-t}\, \mathrm{d} t\,. 
-$$
-
-For inline code we can use `int a=0;` , for another way we can use another test message:
-
-```java
-for (Element e : c) {
-    doSomething(e);
-}
-
-//before JDK1.5
-for (Iterator i = c.iterator(); i.hasNext(); ) {
-    doSomething((Element) i.next());doSomething((Element) i.next());doSomething((Element) i.next());doSomething((Element) i.next());doSomething((Element) i.next());doSomething((Element) i.next());doSomething((Element) i.next());doSomething((Element) i.next());doSomething((Element) i.next());doSomething((Element) i.next());
-}
-```
-
-{% include figure 
-    image_path="/assets/images/demo.jpg"
-    caption="This is a test figure." 
-%}
-
+## Research Interests

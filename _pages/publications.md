@@ -1,5 +1,5 @@
 ---
-permalink: /about.html
+permalink: /publications.html
 title: "Test Page"
 ---
 

@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhukang's Homepage"
+title                    : "Zhukang Wang"
 title_separator          : "-"
-subtitle                 : "Moments captured in words."
+subtitle                 : "Exploring the world of Electromagnetics."
 name                     : "Zhukang Wang"
 description              : "Zhukang's personal website."
 url                      : "https://wangzhukang.github.io/"
